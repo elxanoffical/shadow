@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+body{
+    background: #36393B;
+}
+.container{
+    min-height: 700px;
+    height: 100vh;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    padding: 60px 20px;
+}
+button{
+    background: none;
+    cursor: pointer;
+
+}
+.btn1{
+    padding: 83px 75px;
+    box-shadow: 12px 12px 30px 0px #000, -12px -12px 24px 0px rgba(255, 255, 255, 0.30);
+}
+.btn1:hover{
+    box-shadow: 12px 12px 30px 0px #000 inset, -12px -12px 24px 0px rgba(255, 255, 255, 0.30) inset;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+.statistics{
+    display: flex;
+    gap: 54px;
+}
+.empty-bar{
+    border-radius: 40px;
+    background: #36393B;
+    width: 45px;
+    height: 450px;
+    box-shadow: 12px 12px 30px 0px #000 inset, -12px -12px 24px 0px rgba(255, 255, 255, 0.30) inset;
+    display: flex;
+    align-items: end;
+    cursor: pointer;
+}
+.full-bar{
+    width: 100%;
+    border-radius: 40px;
+    background: linear-gradient(180deg, #ED22CC 0%, #346DFF 100%);
+}
+.twentyPercent{
+    height: 30%;
+}
+.seventyPercent{
+    height: 70%;
+}
+.fiftyPercent{
+    height: 50%;
+}
+.eightyPercent{
+    height: 80%;
+}
